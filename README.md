@@ -6,9 +6,9 @@ Linuxコマンドを使ってファイルを探し出し、内容を確認・整
 
 ---
 ##採点項目
-・workspace/reportのリポジトリを作成。
-・Workspace/report/report.txtの中に、"Line 1"の文字を一行目に書く
-・starter/trash.txtを削除する
+**・workspace/reportのリポジトリを作成。**
+**・Workspace/report/report.txtの中に、"Line 1"の文字を一行目に書く**
+**・starter/trash.txtを削除する**
 
 ## ミッション一覧
 
