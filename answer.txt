@@ -1,0 +1,39 @@
+
+---
+
+## ✅ 解答例（シェルコマンド）
+
+```bash
+# 1. 現在地確認
+pwd
+
+# 2. ディレクトリ作成
+mkdir -p workspace/report
+
+# 3. 移動
+cd workspace/report
+
+# 4. ファイル作成
+touch report.txt trash.txt
+
+# 5. report.txt に内容追加
+echo "Line 1: This is a report" > report.txt
+nano report.txt   # 自由に追記編集
+
+# 6. 内容確認
+cat report.txt
+head report.txt
+tail report.txt
+
+# 7. 長いファイル作成と閲覧
+touch long_report.txt
+for i in {1..100}; do echo "This is line $i" >> long_report.txt; done
+less long_report.txt
+
+# 8. バックアップ作成・移動
+mkdir -p ../backup
+cp report.txt report_backup.txt
+mv report_backup.txt ../backup/
+
+# 9. 不要ファイル削除
+rm trash.txt
