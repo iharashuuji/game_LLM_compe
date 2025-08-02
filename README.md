@@ -5,6 +5,10 @@
 Linuxコマンドを使ってファイルを探し出し、内容を確認・整理してください。
 
 ---
+##採点項目
+・workspace/reportのリポジトリを作成。
+・Workspace/report/report.txtの中に、"Line 1"の文字を一行目に書く
+・starter/trash.txtを削除する
 
 ## ミッション一覧
 
@@ -29,3 +33,5 @@ Linuxコマンドを使ってファイルを探し出し、内容を確認・整
    ```bash
    echo "Line 1: This is a report" > report.txt
    nano report.txt  # または vim で編集
+
+
