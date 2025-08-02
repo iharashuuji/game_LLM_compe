@@ -5,7 +5,7 @@
 Linuxコマンドを使ってファイルを探し出し、内容を確認・整理してください。
 
 ---
-##採点項目
+##採点項目<br>
 **・workspace/reportのリポジトリを作成。**
 **・Workspace/report/report.txtの中に、"Line 1"の文字を一行目に書く**
 **・starter/trash.txtを削除する**
