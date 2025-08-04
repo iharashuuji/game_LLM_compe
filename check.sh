@@ -15,7 +15,7 @@ else
   echo "❌ report.txt 内容: NG"
 fi
 
-if [ ! -f "starter/trash.txt" ]; then
+if [ ! -f "./starter/trash.txt" ]; then
   echo "✅ trash.txt 削除: OK"
   score=$((score+1))
 else
